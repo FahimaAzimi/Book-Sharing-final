@@ -1,0 +1,144 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | Book Sharing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">📚 Book Sharing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="add-book.html">Share</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">login  </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-center">
+    <img src="img5.jpg" alt="Welcome Banner" class="img-fluid mb-3" style="width: 200;">
+    <h1>Welcome to Book Sharing</h1>
+    <p>Share your favorite books and discover new ones from others.</p>
+    <a href="books.html" class="btn btn-primary">Explore Books</a>
+  </header>
+
+  <!-- Features Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Why Use Book Sharing?</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="img.jpg" alt="Share Books" width="60">
+        <h5 class="mt-2">Share Books</h5>
+        <p>Let others discover the books you love.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img7.jpg" alt="Find Reads" width="60">
+        <h5 class="mt-2">Find Reads</h5>
+        <p>Search and explore books by genre or author.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img6.jpg" alt="Connect" width="60">
+        <h5 class="mt-2">Connect</h5>
+        <p>Join a community of passionate readers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Books -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Popular Books</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img1.jpg" class="card-img-top" alt="The Forty Rules of Love">
+          <div class="card-body text-center">
+            <h6 class="card-title">The Forty Rules of Love</h6>
+            <a href="books.html" class="btn btn-outline-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img2.webp" class="card-img-top" alt="The Little Prince">
+          <div class="card-body text-center">
+            <h6 class="card-title">The Little Prince</h6>
+            <a href="books.html" class="btn btn-outline-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img3.jfif" class="card-img-top" alt="The Alchemist">
+          <div class="card-body text-center">
+            <h6 class="card-title">The Alchemist</h6>
+            <a href="books.html" class="btn btn-outline-primary btn-sm">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What Readers Say</h2>
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-start">
+          <img src="img10.jpg" alt="Sara" class="rounded-circle me-3" width="60">
+          <blockquote class="blockquote">
+            <p>"This site helped me find amazing books I never knew existed!"</p>
+            <footer class="blockquote-footer">Sara, student</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6 d-flex align-items-start">
+          <img src="img1.jpg" alt="Ali" class="rounded-circle me-3" width="60">
+          <blockquote class="blockquote">
+            <p>"I love sharing my favorite books with others. Great platform!"</p>
+            <footer class="blockquote-footer">Ali, teacher</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="container text-center my-5">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter for book tips and updates.</p>
+    <img src="img4.jpg" alt="Newsletter" width="100" class="mb-3">
+    <form class="row justify-content-center">
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Enter your email">
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-primary w-100">Subscribe</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Book Sharing. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/login.js" defer></script> 
+</body>
+</html>

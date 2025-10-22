@@ -1,0 +1,176 @@
+body {
+  font-family: 'Segoe UI', 'Vazir', sans-serif;
+  direction: rtl;
+  background-color: #b5bdc5;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link.active {
+  color: #ffc107 !important;
+}
+
+/* ====== Hero Section ====== */
+.hero {
+  background-color: #e9ecef;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* ====== Features Section ====== */
+.features img {
+  margin-bottom: 10px;
+}
+
+.features h5 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* ====== Book Cards ====== */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* ====== Testimonials ====== */
+blockquote {
+  font-size: 1rem;
+  border-right: 4px solid #007bff;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.rounded-circle {
+  object-fit: cover;
+  height: 60px;
+  width: 60px;
+}
+
+/* ====== Newsletter Section ====== */
+.newsletter img {
+  margin-bottom: 15px;
+}
+
+/* ====== Forms ====== */
+form .form-control {
+  border-radius: 0.375rem;
+}
+
+form .btn {
+  border-radius: 0.375rem;
+}
+
+/* ====== Search Input ====== */
+#search-input {
+  border: 2px solid #007bff;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+}
+
+/* ====== Success Message ====== */
+#success-message {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+/* ====== Footer ====== */
+footer {
+ 
+  background-color: #343a40;
+  color: white;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+
+}
+
+/* ====== Responsive Tweaks ====== */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  #search-input {
+    width: 100%;
+  }
+  .img{
+    height: 10px;
+    width: 12px;
+
+  }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+
